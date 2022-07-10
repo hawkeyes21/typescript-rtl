@@ -1,29 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Heading} from "./Heading";
 import './App.css';
-
-export function Heading() {
-    return <h1>React Testing Library using Typescript</h1>
-}
 
 function App() {
   return (
     <div className="App">
         <Heading />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
